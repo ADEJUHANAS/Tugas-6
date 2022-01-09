@@ -52,6 +52,16 @@ switch (pilih){
                             console.log("bilangan " , i);
                             i++;
                         }
+                        break;
+
+                        case '7' :
+                        try{
+                            document.write (kucing);
+
+                        }
+                        catch (error){
+                            console.log(error);
+                        }
 }
 
 var ulang = confirm ("apakah ingin mengulang");

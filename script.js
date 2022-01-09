@@ -1,3 +1,4 @@
+do{
 var pilih = prompt ("masukkan pilihan"); 
 switch (pilih){
     case '1':
@@ -42,9 +43,8 @@ switch (pilih){
                     for(let b of hewan) {
                         console.log(b);
                     }
-
+                    break;
 }
 
-
-
-
+var ulang = confirm ("apakah ingin mengulang");
+} while (ulang);

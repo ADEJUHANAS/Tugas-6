@@ -62,6 +62,7 @@ switch (pilih){
                         catch (error){
                             console.log(error);
                         }
+                        break;
 }
 
 var ulang = confirm ("apakah ingin mengulang");

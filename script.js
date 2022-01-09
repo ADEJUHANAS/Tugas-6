@@ -22,6 +22,19 @@ switch (pilih){
             for (var i = 0 ; i <10 ;i++ ) {
                 console.log("nomor ",i );
             }
+            break;
+
+            case '4':
+                let person = { 
+                    firstName:"Ade",
+                    lastName: "Juhanas",
+                    id:1234,
+                    alamat:"JL.Datuk Laksamana",
+                    status:"Mahasiswa"   
+                }
+                for(let a in person){
+                    console.log(a,":", person [a]);
+                }
 
 }
 
